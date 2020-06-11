@@ -3,9 +3,9 @@
 const _ = {
     /**
      * 
-     * @param {number} num the input number
-     * @param {number} lower the lower bound
-     * @param {number} upper the upper bound
+     * @param {number} num - the input number
+     * @param {number} lower - the lower bound
+     * @param {number} upper - the upper bound
      * 
      * @returns {number} `num` if `num` is within given bounds.
      *                  otherwise the closer extreme 
@@ -17,9 +17,9 @@ const _ = {
     
     /**
      * 
-     * @param {number} num a positive input number
-     * @param {number} [start=0] the start value, default 0
-     * @param {number} end the end value
+     * @param {number} num - a positive input number
+     * @param {number} [start=0] - the start value, default 0
+     * @param {number} end - the end value
      * 
      * @returns {boolean} true, if `start` <= `num` < `end`; false, otherwise
      */
@@ -38,9 +38,9 @@ const _ = {
     
     /**
      * 
-     * @param {string} string the input string
+     * @param {string} string - the input string
      * 
-     * @returns {Array} an array of words in `string` 
+     * @returns {Array} - an array of words in `string` 
      */
     words(string){
       let words = string.split(' ')
@@ -49,8 +49,8 @@ const _ = {
 
    /**
     * 
-    * @param {string} string the input string 
-    * @param {number} length the required length
+    * @param {string} string - the input string 
+    * @param {number} length - the required length
     * 
     * @returns {string} a string padded with spaces padded equally on both ends
     * of the `string` so that length of this new string is equal to `length`,
@@ -80,8 +80,8 @@ const _ = {
     
     /**
      * 
-     * @param {object} obj the input object 
-     * @param {any} key the input key
+     * @param {object} obj - the input object 
+     * @param {any} key - the input key
      * 
      * @returns {boolean} false, if value of `obj`.`key` is undefined;
      * true, otherwise
@@ -95,7 +95,7 @@ const _ = {
     
     /**
      * 
-     * @param {object} obj the input object 
+     * @param {object} obj - the input object 
      * 
      * @returns {object} a new object with key:value pairs of `obj` reversed
      */
@@ -109,8 +109,8 @@ const _ = {
   
     /**
      * 
-     * @param {object} obj the input object
-     * @param {Function} func the test predicate function
+     * @param {object} obj - the input object
+     * @param {Function} func - the test predicate function
      * 
      * @returns {any} the first key whose value in the input object
      * returns a truthy value when passed to the predicated function i.e.,
@@ -126,8 +126,8 @@ const _ = {
     
     /**
      * 
-     * @param {Array} arr the input array
-     * @param {number} [num=1] the input array
+     * @param {Array} arr - the input array
+     * @param {number} [num=1] - the input array
      * 
      * @returns {Array} a new array with `num` number of elements
      * removed from `arr`
@@ -146,8 +146,8 @@ const _ = {
     
     /**
      * 
-     * @param {Array} arr the input array 
-     * @param {Function} func the test predicate function (array_element, index, array)  
+     * @param {Array} arr - the input array 
+     * @param {Function} func - the test predicate function (array_element, index, array)  
      * 
      * @returns {Array} a new array formed by dropping an element
      * from the beginning of `arr`
@@ -168,8 +168,8 @@ const _ = {
 
     /**
      * 
-     * @param {Array} arr the input array
-     * @param {number} [size=1] the input size
+     * @param {Array} arr - the input array
+     * @param {number} [size=1] - the input size
      * 
      * @returns {Array} a new array of arrays each of which is formed by
      * breaking down `arr` into chunks of `size` elements in order;
