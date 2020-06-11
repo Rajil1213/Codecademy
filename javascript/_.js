@@ -58,8 +58,7 @@ const _ = {
     * the extra space is added to the back of the given string
     */
     pad(string, length){
-      let newString = ""
-      newString = Object.assign(newString, string)
+      let newString = string
       let present = newString.length
       let deficit = length - present
       if (deficit <= 0){
@@ -133,8 +132,7 @@ const _ = {
      * removed from `arr`
      */
     drop(arr, num){
-      let newArr = ""
-      newArr = Object.assign(newArr, arr)
+      let newArr = arr
       if (!num){
         num = 1
       }
