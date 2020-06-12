@@ -3,53 +3,53 @@ body {
     margin: 0px;
   }
   
-  .door-frame {
+.door-frame {
     cursor: pointer;
     padding: 10px;
-  }
+}
   
-  .header{
+.header{
     background-color: #00ffff;
     text-align: center;
-  }
+}
   
-  .title-row{
+.title-row{
     margin-top: 42px;
     margin-bottom: 21px;
     text-align: center;
-  }
+}
   
-  .instructions-title{
+.instructions-title{
     display: inline;
     font-size: 18px;
     color: #00ffff;
     font-family: 'Work Sans', sans;
-  }
+}
   
-  .instructions-row{
+.instructions-row{
     margin: 0 auto;
     width: 400px;
-  }
+}
   
-  .instructions-number{
+.instructions-number{
     padding-right: 25px;
     font-family: 'Work Sans', sans;
     font-size: 36px;
     color: #00ffff;
-  }
+}
   
-  .instructions-text{
+.instructions-text{
     padding: 10px;
     font-family: 'Work Sans', sans;
     font-size: 14px;
     color: #ffffff;
-  }
+}
   
-  .door-row{
+.door-row{
     text-align: center;
-  }
+}
   
-  .start-row{
+.start-row{
     margin: auto;
     width: 120px;
     height: 43px;
@@ -60,4 +60,4 @@ body {
     text-align: center;
     color: #010165;
     cursor: pointer;
-  }
+}
