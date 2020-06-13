@@ -6,4 +6,4 @@
 
 * [`choreDoor`](./choreDoor) : A version of the [Chore Door](https://s3.amazonaws.com/codecademy-content/projects/chore-door/chore-door-final/index.html) webpage, recreated.
 
-* [`handlebars`](./handlebars) : A website named Musicon implemented using a mini-version of the Handlebars Library
+* [`handlebars`](./handlebars) : A website named Musicon implemented using a mini-version of the Handlebars Library.
