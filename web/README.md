@@ -1,4 +1,4 @@
-# Contains Some Projects From Codecademy's Course on Javascript
+# Contains Some Projects From Codecademy's Course on Web Development
 
 ## This directory contains
 
